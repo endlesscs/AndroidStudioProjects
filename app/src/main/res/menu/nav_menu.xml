@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@mipmap/message"
+            android:title="消息"/>
+        <item
+            android:id="@+id/nav_user"
+            android:icon="@mipmap/account_message"
+            android:title="账户信息"/>
+        <item
+            android:id="@+id/nav_password"
+            android:icon="@mipmap/change_password"
+            android:title="修改密码"/>
+        <item
+            android:id="@+id/nav_word"
+            android:icon="@mipmap/word"
+            android:title="用户使用文档"/>
+        <item
+            android:id="@+id/nav_out"
+            android:icon="@mipmap/exit"
+            android:title="退出当前账号"/>
+    </group>
+</menu>

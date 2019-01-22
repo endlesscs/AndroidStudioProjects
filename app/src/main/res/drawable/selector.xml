@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_pressed="false" android:drawable="@drawable/clr_normal" />
+    <item android:state_pressed="true"  android:drawable="@drawable/clr_pressed" />
+    <shape
+        android:shape="rectangle">
+        <!-- 高度40 -->
+        <size android:height="20dp" android:width="20dp"/>
+        <!-- 圆角弧度 20 -->
+        <corners android:radius="10dp"/>
+
+        <!-- 填充 -->
+        <solid android:color="#0099cc" />
+    </shape>
+</selector>
+

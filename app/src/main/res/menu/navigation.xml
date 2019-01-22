@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Home"
+        android:icon="@drawable/home_color"
+        android:title="@string/Home" />
+
+    <item
+        android:id="@+id/Message"
+        android:icon="@drawable/message_color"
+        android:title="@string/Message" />
+
+    <item
+        android:id="@+id/Fruit"
+        android:icon="@drawable/star_color"
+        android:title="@string/Fruit" />
+
+    <item
+        android:id="@+id/News"
+        android:icon="@drawable/news_color"
+        android:title="@string/News"/>
+</menu>
